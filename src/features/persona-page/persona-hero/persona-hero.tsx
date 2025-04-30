@@ -11,12 +11,11 @@ export const PersonaHero = () => {
           <VenetianMask size={36} strokeWidth={1.5} /> Persona
         </>
       }
-      description={`  Persona is a representation of a personality that you can use to
-    have a conversation with.`}
+      description={`  Persona é uma representação de uma personalidade que você pode usar para conversar.`}
     >
       <HeroButton
-        title="New Persona"
-        description="Create a new personality that you can use to have a conversation with."
+        title="Nova Persona"
+        description="Crie uma nova personalidade com a qual você possa conversar."
         icon={<VenetianMask />}
         onClick={() =>
           personaStore.newPersonaAndOpen({
