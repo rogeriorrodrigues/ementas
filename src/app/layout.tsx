@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/features/theme/theme-provider";
 import { Toaster } from "@/features/ui/toaster";
 import { cn } from "@/ui/lib";
 //import { Inter } from "next/font/google";
-import { Inter } from 'next/font/local';
+import localFont from 'next/font/local';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
