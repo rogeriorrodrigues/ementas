@@ -2,11 +2,11 @@ import { AI_NAME } from "@/features/theme/theme-config";
 import { ThemeProvider } from "@/features/theme/theme-provider";
 import { Toaster } from "@/features/ui/toaster";
 import { cn } from "@/ui/lib";
-//import { Inter } from "next/font/google";
-import localFont from 'next/font/local';
+import { Inter } from "next/font/google";
+//import localFont from 'next/font/local';
 import "./globals.css";
 
-const inter = localFont({
+/*const inter = localFont({
   src: [
     {
       path: "../../public/fonts/Inter-Regular.woff2",
@@ -20,7 +20,7 @@ const inter = localFont({
     },
   ],
   display: "swap",
-});
+});*/
 
 export const metadata = {
   title: AI_NAME,
